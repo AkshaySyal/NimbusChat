@@ -1,13 +1,14 @@
 ## **Project Architecture**
 
 ### **Frontend**
-The frontend is built using **React**, **TypeScript**, and **Vite** for fast development and performance. It provides a responsive user interface for chat functionalities, file uploads, and user management.
+The frontend is developed using **React**, **TypeScript**, and **Vite**, providing a fast, responsive interface for messaging, file uploads, and user account management.
 
-#### Key Features:
-- **Real-Time Messaging**: Powered by WebSocket communication.
-- **File Uploads**: Users can upload and share files.
-- **Search Functionality**: Search for users and conversations.
-- **State Management**: Zustand is used for managing application state.
+#### Main Features:
+- **Live Messaging**: Uses WebSockets for instant communication.
+- **File Sharing**: Lets users upload and share files.
+- **Search Feature**: Find users and chats quickly.
+- **State Management**: Managed efficiently with Zustand.
+
 
 #### Folder Structure:
 ```
@@ -29,12 +30,16 @@ Frontend/
 ### **Backend**
 The backend is built using **Node.js** and **Express**. It handles real-time communication, file uploads, and database interactions. The backend is designed to be scalable and efficient using technologies like **Redis**, **Kafka**, and **MySQL**.
 
-#### Key Features:
-- **Real-Time Communication**: Socket.IO for WebSocket-based messaging.
-- **Message Queue**: Kafka for asynchronous message processing.
-- **Caching and Pub/Sub**: Redis for caching and real-time message broadcasting.
-- **File Uploads**: AWS S3 for secure file storage.
-- **Authentication**: Firebase Authentication for user verification.
+### **Backend**
+The backend is developed with **Node.js** and **Express**, managing real-time messaging, file handling, and database operations. It’s designed for scalability and performance, utilizing **Redis**, **Kafka**, and **MySQL**.
+
+#### Core Features:
+- **Real-Time Messaging**: Handled via Socket.IO and WebSockets.
+- **Message Queuing**: Kafka manages background message flows.
+- **Caching & Pub/Sub**: Redis ensures fast data access and live updates.
+- **File Storage**: Secure file storage with AWS S3 integration.
+- **User Authentication**: Firebase Authentication for secure login and verification.
+
 
 #### Folder Structure:
 ```
@@ -236,10 +241,10 @@ npm run dev
 
 ---
 
-## **Key Features**
-- Real-time messaging with Socket.IO.
-- Scalable architecture with Redis and Kafka.
-- Secure file uploads to AWS S3.
-- Firebase Authentication for user management.
+## **Main Features**
+- Real-time chat implemented with Socket.IO.
+- Scalable backend leveraging Redis and Kafka.
+- Safe and secure file uploads to AWS S3.
+- User management and authentication through Firebase.
 
-This setup ensures a robust and scalable chat application with real-time capabilities.
+This architecture delivers a dependable and scalable chat solution with live communication support.
