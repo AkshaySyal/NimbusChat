@@ -156,7 +156,7 @@ Backend/
 ### **1. Clone the Repository**
 ```bash
 git clone <repository-url>
-cd ChatBlizz
+cd NimbusChat
 ```
 
 ---
@@ -176,7 +176,7 @@ PORT=8000
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
-DB_NAME=chatblizz
+DB_NAME=nimbuschat
 DB_PORT=3306
 AWS_BUCKET_NAME=your-bucket-name
 AWS_BUCKET_REGION=your-region
